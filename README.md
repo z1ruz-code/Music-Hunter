@@ -86,8 +86,3 @@ pip install yandex-music
 
  pull request'ы и предложения приветствуются!  
 Создавайте [issues](https://github.com/z1ruz-code/Music-Hunter/issues) для сообщений об ошибках или пожеланий.
-
-## 🤝 Вклад
-
- pull request'ы и предложения приветствуются!  
-Создавайте [issues](https://github.com/z1ruz-code/Music-Hunter/issues) для сообщений об ошибках или пожеланий.
