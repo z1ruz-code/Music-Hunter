@@ -1,4 +1,4 @@
-# Music-Hunter 🎵
+# <img src="https://github.com/z1ruz-code/z1ruz-code/blob/main/images/photo_2026-05-08_21-19-51.jpg" height="40" alt="logo"> Music-Hunter
 
 **Music-Hunter** - это консольная утилита на Python, которая помогает:
 - автоматически находить кэш **Яндекс.Музыки** на вашем компьютере;
