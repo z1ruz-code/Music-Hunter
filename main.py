@@ -1,11 +1,13 @@
 from pathlib import Path
 from yandex_music import Client
-
 from banner import print_banner
 from cache_manager import load_cache_path, save_cache_path, find_yandex_music_cache
 from music_processor import copy_with_rename
+import CheckingForUpdates
 
 def main() -> None:
+    CheckingForUpdates.check_and_update()
+
     print_banner()
 
     project_dir = Path(__file__).resolve().parent if "__file__" in globals() else Path.cwd()
@@ -23,7 +25,6 @@ def main() -> None:
         save_cache_path(cache)
         print(f"Найден кеш: {cache}")
         print("Путь сохранён в конфиг")
-
     print()
 
     try:
