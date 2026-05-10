@@ -23,7 +23,7 @@
 Перед запуском установите необходимые библиотеки:
 
 ```bash
-pip install yandex-music
+pip install yandex-music mutagen
 ```
 Также программа использует встроенные модули:
 - `pathlib`, `json`, `os`, `sys`, `shutil`, `zipfile`, `io`
@@ -70,7 +70,7 @@ pip install yandex-music
 - Windows 10/11 (основная целевая ОС).
 - Установленный и авторизованный клиент Яндекс.Музыки (для получения корректных названий треков).
 - Python 3.8+.
-- Библиотека `yandex-music`.
+- Библиотеки `yandex-music` и `mutagen`.
 
 ---
 
